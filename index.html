@@ -1,0 +1,56 @@
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+ 
+    <div class="quiz-app">
+        <div class="over-lay"> </div>
+        <div class="quiz-info">
+            <div class="category">التصنيف :
+
+                <select name="" id="sel">
+                    <option  value="علمية">علمية</option>
+                    <option disabled value="منوعة"> منوعة</option>
+                    <option disabled value="البرمجة"> البرمجة</option>
+                    <option disabled value="البرمجة"> دينية</option>
+                    <option disabled value="الرياضة"> الرياضة</option>
+                    <option disabled value="الصحة"> الصحة</option>
+                    <option disabled value="البرمجة"> عامة</option>
+
+                </select>
+            </div>
+            <div class="count">عدد الاسئلة: <span></span></div>
+        </div>
+
+            <div class="quiz-area"> </div>  
+            <div class="answers-area"></div>
+
+            <button class="submit-btn">Submit Answer</button>
+            <div class="bullets">
+                <div class="spans">
+                   
+                </div>
+                <div class="count-down">
+                    <span class="seconds"></span>
+                    <span class="min"></span>
+                 
+                </div>
+            </div>
+            <div class="result"></div>
+            <footer>
+                CopyRight&copy;2022 Moataz
+            </footer>
+        </div>
+
+<script src="quiz.js"></script>
+</body>
+</html>
